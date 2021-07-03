@@ -1,0 +1,218 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  padding: 0 4% 0 4%;
+}
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 5% 15% 10% 15%;
+}
+
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light',sans-serif;
+}
+
+/* download button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.iphone{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:20%;
+}
+
+/* feature */
+
+#features{
+  background-color: white;
+  position: relative;
+}
+
+.f-icons{
+  color: #ef8172;
+  margin-top: 75px;
+}
+
+.f-icons:hover{
+color: #ff4c68;
+}
+
+.features-heading{
+  padding-top: 20px;
+}
+
+.features-text{
+  color: #8f8f8f;
+  padding: 5%;
+}
+
+
+/* testimonial */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.test-images{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 10%;
+  margin: 50px 50px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+
+.price-col{
+  padding:3% 2%;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5%;
+}
+
+.message{
+  font-size: 3rem;
+  padding: 5% 5% 0 5%;
+  color: #fff;
+}
+
+#footer{
+  text-align: center;
+  padding:5% 0 4% 0;
+  background-color: #fff;
+}
+
+.footer-icon{
+  padding:0 .5% 2% .5%;
+}
+
+@media (max-width:1165px){
+  h1{
+    font-size: 3rem;
+  }
+  .container-fluid{
+    padding: 3% 15% 5% 15%;
+  }
+}
+@media (max-width:1045px) {
+  h1{
+    font-size: 2.5rem;
+  }
+  .iphone{
+    width:60%;
+    position: absolute;
+    right:20%;
+  }
+}
+@media (max-width: 991.5px) {
+  #title{
+    text-align: center;
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  .iphone{
+    transform: rotate(0);
+    position: static;
+    width:60%;
+    padding-top: 10%;
+  }
+  .testimonial-text{
+    padding-top: 15%;
+    font-size: 2rem;
+  }
+  .test-images{
+    width:25%;
+  }
+  .press-img{
+    width:25%;
+  }
+  .message{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:553px) {
+  h1{
+    font-size: 2.5rem;
+  }
+  .testimonial-text{
+    font-size: 1.75rem;
+  }
+  .test-images{
+    width:30%;
+  }
+  .message{
+    font-size: 1.5rem;
+  }
+}
