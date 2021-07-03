@@ -11,4 +11,4 @@ Learned the following concepts:
 - Cards
 - Stacking order
 - Media query
-- Selector priority \
+- Selector priority
